@@ -1,0 +1,21 @@
+table td, tr {
+    border: 1px solid rgb(75, 75, 75);
+}
+
+td {
+    font-weight: 600;
+    height: 100%;
+}
+
+.tableDataa, .action-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border: none;
+
+}
+
+.action-btns button {
+    padding: 3px 20px;
+}
