@@ -1,0 +1,58 @@
+.AddBook {
+    margin-block: 30px;
+    width: 100%;
+}
+
+.AddBook-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.AddBook-input .a div, .AddBook-input .b  div {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    font-size: large;
+}
+
+.AddBook-input .a, .AddBook-input .b {
+    display: flex;
+}
+
+.AddBook-input input {
+    width: 300px;
+    border: 1px solid #212529;
+    outline: none;
+    padding-inline: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+.AddBook-input button {
+    width: 150px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    width: 340px !important;
+    background-color: #4690ff;
+}
+
+.btn-danger {
+    background-color: #ff5566;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
