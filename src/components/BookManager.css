@@ -1,0 +1,18 @@
+.alert-dismissible {
+    max-width: 500px;
+    display: flex;
+}
+
+.alert-dismissible div {
+    margin-right: 80px;
+}
+
+.alert-dismissible div span {
+    font-weight: 600 !important;
+}
+
+.add-msg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
